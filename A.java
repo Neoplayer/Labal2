@@ -19,4 +19,8 @@ public class A implements I {
     public double ad() {
         return 12.12;
     }
+
+    public void ab() {
+        System.out.println();
+    }
 }

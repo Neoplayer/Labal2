@@ -19,4 +19,8 @@ public class C implements B {
     public byte oo() {
         return 2;
     }
+
+    public int hh() {
+        return new java.util.Random(10).nextInt(10);
+    }
 }
